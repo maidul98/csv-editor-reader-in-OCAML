@@ -1,0 +1,3 @@
+<table.ml>: coverage
+<table_test.{byte,native}>: coverage
+true: package(csv), package(ounit2), package(qcheck), package(bisect_ppx)
