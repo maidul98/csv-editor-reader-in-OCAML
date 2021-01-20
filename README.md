@@ -1,8 +1,8 @@
 Spreadsheets have many uses, but their primary task is computation on tables — data that are organized into rows and columns. This is a data abstraction that enables us to compute with csv tables in OCAML.
 
 Operations. Here are the rest of the operations I want to perform on tables:
-• Empty: Create an empty table, which has no rows and no columns.
-• Add: Add a new column by providing both its label, and all of the data for it as a list. The column becomes the last column of the table.
+- Empty: Create an empty table, which has no rows and no columns.
+- Add: Add a new column by providing both its label, and all of the data for it as a list. The column becomes the last column of the table.
 • Get: Get all the data from a column as a list.
 • Drop: Remove a column.
 • Sort: Sort the table by a column in ascending order.
